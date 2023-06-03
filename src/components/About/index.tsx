@@ -157,12 +157,15 @@ const About: React.FC = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 2, ease: "easeOut" }}
             href="#projects"
-            onClick={() =>
-              window.scrollTo({
-                top: document.getElementById("projects").offsetTop,
-                behavior: "smooth",
-              })
-            }
+            onClick={() => {
+              const projectsElement = document.getElementById("projects");
+              if (projectsElement) {
+                window.scrollTo({
+                  top: projectsElement.offsetTop,
+                  behavior: "smooth",
+                });
+              }
+            }}
           >
             PROJECTS
           </motion.a>
@@ -175,12 +178,15 @@ const About: React.FC = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 2, ease: "easeOut" }}
             href="#contact"
-            onClick={() =>
-              window.scrollTo({
-                top: document.getElementById("contact").offsetTop,
-                behavior: "smooth",
-              })
-            }
+            onClick={() => {
+              const contactsElement = document.getElementById("contact");
+              if (contactsElement) {
+                window.scrollTo({
+                  top: contactsElement.offsetTop,
+                  behavior: "smooth",
+                });
+              }
+            }}
           >
             CONTACT
           </motion.a>
