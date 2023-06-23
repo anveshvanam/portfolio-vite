@@ -8,6 +8,18 @@ const backend_image =
 const ProjectsList = [
   {
     id: uuidv4(),
+    githubLink: "https://github.com/anveshvanam/Netflix-clone",
+    source: "https://cinemora.vercel.app/",
+    image: "https://i.imgur.com/R00tIUB.png", //  "https://i.imgur.com/Bc1Khrw.png",
+    title: "Netflix Clone",
+    tech: ["REACTJS", "TYPESCRIPT", "TAILWIND CSS"],
+    description:
+      "A Netflix clone built with React, Typescript and Tailwind using tmdb api. ",
+    frontend: true,
+    hasAuth: false,
+  },
+  {
+    id: uuidv4(),
     githubLink: "https://github.com/anveshvanam/Book-Hub",
     source: "https://avbookhub.ccbp.tech/",
     image: "https://i.imgur.com/cKEqxo0.png",
@@ -18,17 +30,17 @@ const ProjectsList = [
     frontend: true,
     hasAuth: true,
   },
-  {
-    id: uuidv4(),
-    githubLink: "https://github.com/anveshvanam/IPL-Dashboard",
-    source: "https://avipldashboard.ccbp.tech/",
-    image: "https://i.imgur.com/d5mw0KW.png",
-    title: "IPL Dashboard",
-    tech: ["REACTJS"],
-    description: "An IPL Dashboard web application built using React  ",
-    frontend: true,
-    hasAuth: false,
-  },
+  // {
+  //   id: uuidv4(),
+  //   githubLink: "https://github.com/anveshvanam/IPL-Dashboard",
+  //   source: "https://avipldashboard.ccbp.tech/",
+  //   image: "https://i.imgur.com/d5mw0KW.png",
+  //   title: "IPL Dashboard",
+  //   tech: ["REACTJS"],
+  //   description: "An IPL Dashboard web application built using React  ",
+  //   frontend: true,
+  //   hasAuth: false,
+  // },
   {
     id: uuidv4(),
     githubLink: "https://github.com/anveshvanam/Emoji-Game",
